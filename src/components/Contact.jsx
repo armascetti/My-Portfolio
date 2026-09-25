@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './Navbar';
 import '../styles/ContactInfo.css';
-import Resume from '../Documents/ArmascettiResume.pdf';
+import ResumePdf from '../Documents/ArmascettiResume.pdf';
 
 export default function Contact() {
   return (
@@ -16,7 +16,7 @@ export default function Contact() {
     AI-integrated, and cleared roles.
   </p>
 
-  <div className="contact-links">
+    <div className="contact-links">
     <a href="mailto:armascetti@gmail.com">Email Me</a>
     <a href="https://www.linkedin.com/in/mandy-mascetti/" target="_blank" rel="noreferrer">
       LinkedIn
@@ -24,9 +24,9 @@ export default function Contact() {
     <a href="https://github.com/armascetti" target="_blank" rel="noreferrer">
       GitHub
     </a>
-    <a href={Resume} download="ArmascettiResume.pdf">
-      Download Resume
-    </a>
+      <a href={ResumePdf} download="ArmascettiResume.pdf">
+        Download Resume
+      </a>
   </div>
 </section>
     </>

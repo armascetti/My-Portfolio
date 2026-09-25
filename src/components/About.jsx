@@ -22,8 +22,7 @@ export default function About() {
             creative problem-solving.
           </p>
           <p>
-            I enjoy family time, the outdoors, hiking, exercising, and traveling
-            while building meaningful solutions.
+            I enjoy family time, the outdoors, hiking, exercising, and traveling.
           </p>
         </div>
       </div>
